@@ -1,0 +1,39 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Getting Started"
+    url: /getting-started/
+  - title: "Documentation"
+    url: /documentation/
+
+sidebar:
+  - title: About
+    url: /about/
+    children:
+      - title: Great Projectors
+        url: /about/#characteristics-of-a-great-projector
+      - title: Principles of Successful Libraries
+        url: /about/#principles-of-successful-libraries
+      - title: Introducing Liquid Projections
+        url: /about/#Introducing-Liquid-Projections
+
+  - title: Getting Started
+    url: /getting-started/
+    children:
+      - title: Basic Event Map
+        url: /getting-started/#a-basic-event-map
+      - title: Connecting the Event Store
+        url: /getting-started/#connecting-your-projectors-to-an-event-store
+      - title: The Dispatcher
+        url: /getting-started/#to-dispatch-or-not-to-dispatch
+      - title: Mapping CRUD Operations
+        url: /getting-started/#mapping-creates-updates-and-deletes
+      - title: Statistics and Progress Tracking
+        url: /getting-started/#collecting-statistics-and-predicting-progress
+
+  - title: Documentation
+    url: /documentation/
+    children:
+      - title: NHibernate
+        url: /nhibernate/
