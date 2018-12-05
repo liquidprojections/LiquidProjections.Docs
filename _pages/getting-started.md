@@ -97,7 +97,7 @@ var projector = new Projector(mapBuilder)
 {
 	ShouldRetry = async (exception, attempts) =>
 	{
-		await Task.Delay(attempts ^ 2);
+		await Task.Delay(Math.Pow(2, attempts));
 
 		return (attempts < 3);
 	}
